@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Fix Discord CDN",
   "description": "Download expired Discord CDN files!",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
@@ -14,8 +14,8 @@
       "js": ["scripts/fixcdn.js"],
       "run_at": "document_start",
       "matches": [
-        "https://cdn.discordapp.com/attachments/*",
-        "https://media.discordapp.net/attachments/*"
+        "https://cdn.discordapp.com/attachments/*/*/*",
+        "https://media.discordapp.net/attachments/*/*/*"
       ]
     }
   ]
