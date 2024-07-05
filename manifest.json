@@ -3,6 +3,11 @@
   "name": "Fix Discord CDN",
   "description": "Download expired Discord CDN files!",
   "version": "1.1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fix-discord-cdn@hyonsu.com"
+    }
+  },
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
